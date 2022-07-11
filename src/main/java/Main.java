@@ -8,10 +8,10 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = true;
 
-        Birthday birthday = new Birthday();
-        birthday.day = 16;
-        birthday.month = "september";
-        birthday.year = 87;
+        post.birthday = new FormDate();
+        post.birthday.day = 16;
+        post.birthday.month = "september";
+        post.birthday.year = 87;
 
     }
 }
